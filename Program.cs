@@ -151,3 +151,17 @@ else
 {
     Console.WriteLine("Есть над чем поработать");
 }
+
+//Дополнительное задание
+// int[] arr = { 1, 2, 3, 4, 5, 6 };
+// int x = 0;
+// for (int i = 0; i < arr.Length / 2; i++)
+// {
+//     x = arr[i];
+//     arr[i] = arr[arr.Length - 1 - i];
+//     arr[arr.Length - 1 - i] = x;
+// }
+// foreach (int i in arr)
+// {
+//     Console.Write($"{i} ");
+// }
